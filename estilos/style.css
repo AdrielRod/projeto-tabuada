@@ -56,7 +56,7 @@ section{
 @media screen and (width > 979px)
 {
     section{
-        width: 60vw;
+        width: 45vw;
         transition: all 0.4s;
     }  
 }
