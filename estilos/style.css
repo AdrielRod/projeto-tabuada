@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    font-family: sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+body{
+    background-color: rgb(133, 191, 211);
+}
+header > h1{
+    color: white;
+    text-align: center;
+}
+header > p{
+    text-align: center;
+}
+footer{
+    background-color: rgb(133, 191, 211);
+    text-align: center;
+}
+section{
+    width: 86vw;
+    background-color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
+}
+
+#ientrada{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    background-color: rgba(189, 188, 188, 0.295);
+}
+#isaida{
+    width: 50%;
+}
+#isaida > p{
+    text-align: center;
+}
+#inumero{
+    align-content: center;
+    width: 50px;
+    height: 13px;
+}
+#ibutton{
+    height: 20px;
+    margin-left: 10px;
+}
+
+@media screen and (width > 979px)
+{
+    section{
+        width: 60vw;
+        transition: all 0.4s;
+    }  
+}
